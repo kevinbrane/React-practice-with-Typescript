@@ -1,0 +1,53 @@
+.validationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  justify-content: center;
+  height: 100vh;
+
+  .successHeader {
+    border: none;
+    background-color: rgb(171, 224, 171);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  label span {
+    color: rgb(34, 145, 149) ;
+  }
+
+  .cardsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.5rem 0;
+    gap: 5px;
+
+    .card {
+      border: solid 1px rgb(204, 188, 188);
+      border-radius: 2px;
+      padding: 5px;
+      width: 38px;
+      display: flex;
+      flex-direction: column;
+      height: 37px;
+
+      .closeCircle {
+        color: white;
+        cursor: pointer;
+      }
+
+      span {
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .backArrow {
+    cursor: pointer;
+  }
+}

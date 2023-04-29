@@ -1,0 +1,38 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    font-size: medium;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    border-radius: 5px;
+    border: solid 1px rgb(204, 188, 188);
+  }
+
+  button{
+    margin-top: 10px;         
+    background-color: rgb(34, 145, 149);
+    border-radius: 8px;
+    border: solid 2px rgb(34, 145, 149);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: white;
+      color:rgb(34, 145, 149);
+      border: solid 2px;
+    }
+  }
+
+}
+
+
+
+
